@@ -13,15 +13,19 @@
 ## Description:
 * For this assignment you will need to read three files and console log the first 8 bytes in hex of each file.
  * hint use `toString` docs
-* Also, you must guarantee that three files are read and console logged in the order `'one.txt', 'two.txt', 'three.txt'` regardless of file size. 
+* Also, you must guarantee that three files are read and console logged in the order `'one.txt', 'two.txt', 'three.txt'` regardless of file size.
 * You will need to write tests that gaurantee that the files are logged in order.
-* You will also need to look up and implement async testing, making sure that you are not getting "false positives"(tests that are passing but shouldn't be). 
+* You will also need to look up and implement async testing, making sure that you are not getting "false positives"(tests that are passing but shouldn't be).
  * hint read mocha docs    
- 
-## Bonus 
+
+## Bonus
 * 2pts dont use nested callbacks  
-  
+
 ##Rubric:
   * Async Handling: 4pts
   * Use of fs: 2pts
   * Testing: 4pts
+
+
+Used test reference at:
+http://tobyho.com/2015/12/16/mocha-with-promises/
