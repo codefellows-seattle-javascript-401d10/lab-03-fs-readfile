@@ -8,5 +8,5 @@ const readDataFiles = require('./lib/readFiles');
 // module logic
 
 readDataFiles(function(resultArray){
-  console.log('final', resultArray);
+  console.log('Final String:', resultArray);
 });
