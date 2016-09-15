@@ -3,7 +3,9 @@
 const fs = require('fs');
 
 module.exports = exports = {};
+
 var array = [];
+
 module.exports = function(callback){
   fs.readFile(`${__dirname}/../data/one.txt`, function(err, data){
     if(err) throw err;
@@ -20,17 +22,3 @@ module.exports = function(callback){
     });
   });
 };
-
-
-
-// const assert = require('assert');
-// const readFileHelper = require('../lib/read-file-helper.js');
-//
-// describe('testing readFileHelper', function(){
-//   it('should return the right string', function(done){
-//     readFileHelper(function(test){
-//     assert.equal(text, 'hello world');
-//       done();
-//     });
-//   });
-// });
