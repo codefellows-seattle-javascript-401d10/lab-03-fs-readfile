@@ -11,7 +11,6 @@ describe('testing index', function(){
   describe('testing #readOneText()', function(){
     it ('should return 11111111', function(done){
       readfilehelper.readOneText(function(hexString){
-        console.log(hexString, 'at line 13');
         indexTestStringArray.push(hexString);
         assert.equal(hexString, '11111111', 'did not get expected result');
         done();
@@ -22,7 +21,6 @@ describe('testing index', function(){
   describe('testing #readTwoText()', function(){
     it('should return 22222222', function(done){
       readfilehelper.readTwoText(function(hexString){
-        console.log(hexString);
         indexTestStringArray.push(hexString);
         assert.equal(hexString, '22222222', 'did not get expected result 22222222');
         done();
@@ -33,7 +31,6 @@ describe('testing index', function(){
   describe('testing #readThreeText()', function(){
     it('should return 1234567', function(done){
       readfilehelper.readThreeText(function(hexString){
-        console.log(hexString);
         indexTestStringArray.push(hexString);
         assert.equal(hexString, 1234567, 'did not get expected result 1234567');
 
