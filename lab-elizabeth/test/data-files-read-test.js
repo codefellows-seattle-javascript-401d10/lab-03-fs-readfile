@@ -1,3 +1,5 @@
 'use strict';
 
-const dataFilesRead = require('./lib/data-files-read.js');
+const dataFilesRead = require(`${__dirname}/../lib/data-files-read.js`);
+
+describe('');
