@@ -1,9 +1,12 @@
 'use strict';
 
-module.exports = exports = {};
+const txtRead = require('./lib/txtRead');
 
-exports.stuff = function() {
-  console.log('stuff');
-};
+txtRead(printIt);
 
-exports.stuff();
+function printIt(data) {
+  data.forEach(function(x){
+    console.log(x);
+  });
+  console.log(data);
+}
