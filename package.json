@@ -1,0 +1,29 @@
+{
+  "name": "lab-01-modular-patterns",
+  "version": "1.0.0",
+  "description": "![CF](assets/shield-32x32.png) Lab 01: Modular Patterns and Testing ===",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaylynyuh/lab-01-modular-patterns.git"
+  },
+  "author": "yuhkay4@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaylynyuh/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/kaylynyuh/lab-01-modular-patterns#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.0.2"
+  }
+}
