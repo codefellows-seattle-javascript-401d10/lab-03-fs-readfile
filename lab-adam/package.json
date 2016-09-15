@@ -1,0 +1,19 @@
+{
+  "name": "lab-adam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-promise": "0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "3.0.2"
+  }
+}
