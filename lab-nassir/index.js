@@ -1,7 +1,7 @@
 'use strict';
 
 // node modules
-const readDataFiles = require('./lib/readFiles');
+const readDataFiles = require('./lib/readfiles');
 // npm modules
 // app modules
 // module constants

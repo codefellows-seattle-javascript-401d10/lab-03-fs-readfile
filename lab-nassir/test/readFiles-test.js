@@ -2,7 +2,7 @@
 
 // node modules
 // const fs = require('fs');
-const readDataFiles = require('../lib/readFiles');
+const readDataFiles = require('../lib/readfiles');
 const assert = require('assert');
 // npm modules
 // app modules
