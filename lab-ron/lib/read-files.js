@@ -14,7 +14,8 @@ module.exports = function(callback){
       fs.readFile(`${__dirname}/../data/three.txt`, function(err, data){ //all NODE API calls take err, data, in that order.
         if(err) throw err;
         array.push(data.toString('hex', 0, 8));
-        console.log('data from line 23', array);
+        console.log('data from line 17', array);
+        callback(array);
       });
     });
   });
