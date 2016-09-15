@@ -1,1 +1,1 @@
-I am file two
+Welcome to text file two
