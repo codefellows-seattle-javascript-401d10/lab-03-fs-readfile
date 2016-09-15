@@ -1,6 +1,6 @@
 'use strict';
 
-const readFileHelper = require('../lib/fs.js');
+const readFileHelper = require('../lib/read-file.js');
 const assert = require('assert');
 
 describe('testing readFileHelper', function() {
