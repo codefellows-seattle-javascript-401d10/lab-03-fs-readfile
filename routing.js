@@ -2,4 +2,6 @@
 
 const main = require('./lib/filesystem.js');
 
-main();
+main(function(data) {
+  console.log(data);
+});
