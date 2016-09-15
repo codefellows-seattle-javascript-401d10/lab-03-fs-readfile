@@ -8,5 +8,4 @@ function printIt(data) {
   data.forEach(function(x){
     console.log(x);
   });
-  console.log(data);
 }
