@@ -40,7 +40,7 @@ describe('testing index', function(){
         //testing if two arrays match
         describe('testing to see if data in indexTestStringArray matches the callBackArray that was populated in readfilehelper.js', function(){
           it(',should assert if the array elements match ', function(){
-            assert.equal(indexTestStringArray.join, callBackArray.join, 'arrays dont match');
+            assert.equal(indexTestStringArray.join(), callBackArray.join(), 'arrays dont match');
           });
         });
         done();
