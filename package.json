@@ -1,0 +1,23 @@
+{
+  "name": "lab-03-fs-readfile",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) lab-03-fs-async ======",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganlsr/lab-03-fs-readfile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loganlsr/lab-03-fs-readfile/issues"
+  },
+  "homepage": "https://github.com/loganlsr/lab-03-fs-readfile#readme"
+}
