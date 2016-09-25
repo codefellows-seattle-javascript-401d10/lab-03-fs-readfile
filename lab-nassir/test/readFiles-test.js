@@ -1,12 +1,7 @@
 'use strict';
 
-// node modules
 const readDataFiles = require('../lib/readfiles');
 const assert = require('assert');
-// npm modules
-// app modules
-// module constants
-// module logic
 
 describe('readDataFiles test', function(){
   it('Items in resultsArray should match to their expected index positions', function(done){

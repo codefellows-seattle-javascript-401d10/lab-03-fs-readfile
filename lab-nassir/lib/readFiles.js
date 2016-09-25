@@ -1,11 +1,6 @@
 'use strict';
 
-// node modules
 const fs = require('fs');
-// npm modules
-// app modules
-// module constants
-// module logic
 
 module.exports = function readDataFiles(callback) {
   var resultArray = [];
