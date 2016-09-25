@@ -21,6 +21,27 @@ module.exports = function readDataFiles(callback) {
   });
 };
 
+//new stuff from Duncan's solution.
+
+// const readFiles = module.exports = function(pathArray, callback){
+//   var result = [];
+//   fs.readFile(pathArray[0], function(err, data){
+//     if (err) return callback(err); //return will end the function. This will trigger if pathArray[0] contains no valid data.
+//     result.push(etc);
+//     //repeat two times
+//     callback(null, result);
+//   });
+// };
+//
+// readFiles([`${__dirname}/dont-exist.txt`], function(err, data){
+//   if (err) {
+//     console.error('error found here');
+//     console.error(err);
+//   }
+// });
+
+// old attempt at extracred, failure
+
 // module.exports = function readDataFiles(callback) {
 //   var resultArray = [];
 //   fs.readdir(`${__dirname}/../data/`, function(err, files) {
