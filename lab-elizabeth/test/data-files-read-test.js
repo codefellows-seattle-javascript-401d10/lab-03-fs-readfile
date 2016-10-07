@@ -14,7 +14,7 @@ describe('determining load order and data is correct', function(){
   });
   it('checks the data', function(done){
     dataFilesRead(function(array, text){
-      assert.equal(text, '42726f776e20636104426c656768626c654c69636b20706c', 'expected hex output for one, two, three.txt');
+      assert.equal(text, '42726f776e206361426c656768626c654c69636b20706c61', 'expected hex output for one, two, three.txt');
       done();
     });
   });
